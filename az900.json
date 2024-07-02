@@ -1,0 +1,1895 @@
+[{
+  "_id": 5,
+  "question": "Contoso plans to migrate their existing on-premises SQL VMs to Azure. Which expenditure model does this implement?",
+  "answers": [
+    "Capital (CAPEX)",
+    "@Operational (OPEX)",
+    "Subscription",
+    "Elastic"
+  ]
+},
+{
+  "_id": 6,
+  "question": "Afinancial analysis of migration of on-premises files to Azure Storage at Contoso showed that storing 2TB of archived data in Azure would be less expensive than hosting this data on-premises. The report also showed unit cost in Azure would decrease even further as the data archive grows. This is an example of cloud",
+  "answers": [
+    "Elasticity",
+    "@Economies of scale",
+    "Scalability",
+    "High Availability"
+  ]
+},
+{
+  "_id": 12,
+  "question": "You are deploying multiple instances of a custom Contoso web application. The application instances share a common management lifecycle, but will be located in different Azure regions. Can you deploy resources across multiple Azure regions in a single resource group?",
+  "answers": [
+    "@Yes",
+    "No"
+  ]
+},
+{
+  "_id": 7,
+  "question": "The Contoso Corp Financial Services team needs to automate several business processes. They need to create workflows in a low-code environment with a visual interface. The service must have built-in connectivity to their existing platforms, like SalesForce and SAP. They also require the flexibility to run develop and run small snippets of code if necessary. Which Microsoft service will best fit their use case?",
+  "answers": [
+    "Power Automate",
+    "@Logic Apps",
+    "Azure Automation",
+    "Azure Functions"
+  ]
+},
+{
+  "_id": 10,
+  "question": "Contoso IT needs to ensure deployments of like Azure resources are the same for every deployment. Which of the following could be used to automate resource deployment?",
+  "answers": [
+    "Azure API Management",
+    "Management Groups",
+    "@Azure Resource Manager (ARM) templates",
+    "Azure Synapse"
+  ]
+},
+{
+  "_id": 19,
+  "question": "To retire some aging on-premises servers, Contoso is planning to move several SQL databases to Azure SQL Database. The CIO has asked for a tool to estimate the cost of hosting these resources in Azure. Sally suggests using the Azure Pricing Calculator to estimate costs prior to migration. Does Sally's solution meet the solution criteria?",
+  "answers": [
+    "@Yes",
+    "No"
+  ]
+},
+{
+  "_id": 17,
+  "question": "You can monitor health and availability of your Azure Kubernetes Service (AKS) cluster with:",
+  "answers": [
+    "@Azure Monitor",
+    "Azure App Insights",
+    "Microsoft Sentinel",
+    "Microsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 32,
+  "question": "An Azure _____is aset of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.",
+  "answers": [
+    "Availability Zone",
+    "@Region",
+    "Geography",
+    "Datacenter"
+  ]
+},
+{
+  "_id": 36,
+  "question": "In Azure, you are charged only for what you use. This is known as a",
+  "answers": [
+    "Fixed-price model",
+    "@Consumption based model"
+  ]
+},
+{
+  "_id": 39,
+  "question": "You need to provide additional capacity than what is currently available in your on-premises datacenter. The solution must minimize capital expense (CapEx) and operational expense (OpEX). Which solution should you recommend?",
+  "answers": [
+    "Migration to public cloud",
+    "Aprivate cloud",
+    "@A hybrid cloud",
+    "Additional on-premises servers"
+  ]
+},
+{
+  "_id": 1,
+  "question": "To transition a large capital expenditure (CapEx) to an operational expenditure (OpEx), Contoso's CIO has suggested to the board that the organization move their virtual machine (1aaS) workloads to Azure. The CFO argues that this will result in unpredictable OpEx spending. In this case, what pricing option is available to reduce costs and making predicting future spending easier?",
+  "answers": [
+    "@Azure Reservations",
+    "Pay-as-you-go (PAYG)",
+    "Azure VM Scale Sets",
+    "Azure in CSP"
+  ]
+},
+{
+  "_id": 22,
+  "question": "Contoso's Security team wants to apply policy-based configuration across deployments in multiple Azure subscriptions. Which of the following can help achieve this requirement?",
+  "answers": [
+    "Resource Groups",
+    "@Managment Groups",
+    "Role Based Access Control (RBAC)",
+    "Access Policies"
+  ]
+},
+{
+  "_id": 14,
+  "question": "Which Azure service would you use to correlate events from multiple Azure resources in a central repository? (choose the best answer)",
+  "answers": [
+    "Azure Data Lake",
+    "@Azure Log Analytics",
+    "Azure Event Grid",
+    "Azure Event Hub"
+  ]
+},
+{
+  "_id": 28,
+  "question": "Contoso wants to migrate a legacy application to Azure that requires an file share accessible on a UNC path. You need to provide an SMB file share and secure access. The solution should minimize administrative effort. Which service will you use?",
+  "answers": [
+    "OneDrive",
+    "SharePoint",
+    "@Azure Files",
+    "Azure VM with a file share"
+  ]
+},
+{
+  "_id": 34,
+  "question": "An_____ protects against VM failures due to failures in updates, power, or network connectivity.",
+  "answers": [
+    "@Availability Set",
+    "Availability Zone",
+    "VMscale set",
+    "Azure VM"
+  ]
+},
+{
+  "_id": 2,
+  "question": "Tailspin Toys, a small startup, is choosing their initial services architecture. They choose to rely on Office 365 and Microsoft Azure for all services. Which of the following best describes the cloud model they have chosen?",
+  "answers": [
+    "Private Cloud",
+    "@Public Cloud",
+    "Hybrid Cloud",
+    "Government Cloud"
+  ]
+},
+{
+  "_id": 27,
+  "question": "For regulatory compliance, you need to ensure Contoso's corporate web apps use TLS 1.2 for encryption. Does Azure App Service support enforcing this specific requirement?",
+  "answers": [
+    "@Yes",
+    "No"
+  ]
+},
+{
+  "_id": 30,
+  "question": "Contoso IT wants to configure separate Azure subscriptions for different environments (production, development, test) and products. Can they associate multiple Azure subscriptions to the same Entra ID tenant?",
+  "answers": [
+    "@Yes",
+    "NO"
+  ]
+},
+{
+  "_id": 37,
+  "question": "Contoso runs several business applications in Azure VMs. Which cloud computing model best categorizes Azure VMs?",
+  "answers": [
+    "Software as a service (SaaS)",
+    "Platform as a service (PaaS)",
+    "@Infrasturure as a service (IaaS)",
+    "Function as a service (Faas)"
+  ]
+},
+{
+  "_id": 24,
+  "question": "Contoso is planning to move to Azure, but currently hosts business applications in a shared virtualization infrastructure on-premises, utilizing Hyper-V. This is an example of which cloud computing model?",
+  "answers": [
+    "Hybrid Cloud",
+    "@Private Cloud",
+    "Public Cloud",
+    "Government Cloud"
+  ]
+},
+{
+  "_id": 38,
+  "question": "Azure App Service, Azure SQL Database, and Cosmos DB are examples of which category of cloud computing service?",
+  "answers": [
+    "Function as a Service (FaaS)",
+    "Software as a Service (SaaS)",
+    "@Platform as a Service (PaaS)",
+    "Infrastructure as a Service (IaaS)"
+  ]
+},
+{
+  "_id": 13,
+  "question": "You are responsible for recommending infrastructure architectures for applications at Contoso. Which solution would you recommend for on-demand execution of automated tasks in Python for minimum of expense?",
+  "answers": [
+    "Azure Monitor",
+    "Azure Cloud Shell",
+    "Azure Automation",
+    "@Azure Functions"
+  ]
+},
+{
+  "_id": 9,
+  "question": "Contoso has a line-of-business application that requires access to a file share. You need to host this share in Azure with a minimum of cost and administration effort. Which service would best fulfill this requirement?",
+  "answers": [
+    "@Azure Files",
+    "Azure Blob Storage",
+    "Azure VMs",
+    "VM Scale Sets"
+  ]
+},
+{
+  "_id": 21,
+  "question": "You have a mobile application that exchanges large numbers of messages with customer devices. Which type of Azure storage is optimized for storing large numbers of messages, accessible from anywhere via authenticated HTTP or HTTPS calls?",
+  "answers": [
+    "Blob Storage",
+    "@Queue Storage",
+    "Table Storage",
+    "File Storage"
+  ]
+},
+{
+  "_id": 18,
+  "question": "Which storage tier in Azure Storage delivers the highest cost of data storage?",
+  "answers": [
+    "@Hot",
+    "Cold",
+    "Cool",
+    "Archive"
+  ]
+},
+{
+  "_id": 33,
+  "question": "Which Azure storage redundancy option does Microsoft recommendfor maximum redundancy and recoverability?",
+  "answers": [
+    "Locally Redundant Storage (LRS)",
+    "Geo-Redundant Storage (GRS)",
+    "Zone Redundant Storage (ZRS)",
+    "@Geo Zone Redundant Storage (GZRS)"
+  ]
+},
+{
+  "_id": 40,
+  "question": "Office 365, Azure VMs, and Event Grid represent, and respectively.",
+  "answers": [
+    "1) SaaS 2) PaaS 3) IaaS",
+    "1) PaaS 2) Iass 3) SaaS",
+    "@1) SaaS 2) IaaS 3) PaaS"
+  ]
+},
+{
+  "_id": 25,
+  "question": "Contoso plans to implement a hybrid cloud architecture utilizing Azure. They need to connect on-premises application resources. The solution should minimize latency and maximize security. Which option should they choose?",
+  "answers": [
+    "Point-to-Site VPN",
+    "Site-to-Site VPN",
+    "@ExpressRoute",
+    "Azure Application Gateway"
+  ]
+},
+{
+  "_id": 31,
+  "question": "Contoso Financial Services regularly creates documents containing sensitive customer data, including personally identifiable information. You need to ensure access is restricted to finance personnel, regardless of where the document travels. Which service should you use to classify and protect these documents?",
+  "answers": [
+    "Microsoft Defender for Cloud Apps",
+    "Microsoft Defender for Endpoint",
+    "@Microsoft Purview",
+    "Entra ID Conditional Access"
+  ]
+},
+{
+  "_id": 11,
+  "question": "You are testing new software in an Azure VM. When you are done testing, you shut down the VM, which shows a state of “Stopped” in the Azure portal. Will you incur additional costs while the VM is in this state?",
+  "answers": [
+    "@Yes",
+    "No"
+  ]
+},
+{
+  "_id": 4,
+  "question": "Contoso hosts a legacy CRM application that runs on an Azure VM scale set. The application runs at a steady state of around 30% resource utilization. However, during month end closing activities, the application spikes to 90% resource utilization for extended periods during the last week of the month. Azure allows Contoso IT to meet these spikes in resource demand at the push of a button, paying for the additional capacity only when needed. This is an example of:",
+  "answers": [
+    "Scalability",
+    "@Elasticity",
+    "Fault Tolerance",
+    "High Availability"
+  ]
+},
+{
+  "_id": 8,
+  "question": "Kelly, who works in IT Operations, wants to automate a task using a script she wrote. She wants to do this with a minimum of expense and maintenance effort. She selected Azure Functions to host the job, instead of Azure Virtual Machines (1aas). Does this service meet the solution criteria?",
+  "answers": [
+    "@Yes",
+    "No"
+  ]
+},
+{
+  "_id": 29,
+  "question": "Storage for Azure VMs is hosted in which Azure Storage type?",
+  "answers": [
+    "File",
+    "Table",
+    "@Disk",
+    "Blob"
+  ]
+},
+{
+  "_id": 15,
+  "question": "An _____ protects against datacenter-level failures.",
+  "answers": [
+    "Availability Set",
+    "@Availability Zone",
+    "Azure VM"
+  ]
+},
+{
+  "_id": 26,
+  "question": "As part of a hybrid cloud deployment at Contoso, you need to connect Contoso's on-premises datacenter to Azure. The solution you choose should minimize expense during the low-scale pilot deployment. Which option will you choose?",
+  "answers": [
+    "Point-to-Site VPN",
+    "@Site-to-Site VPN",
+    "ExpressRoute",
+    "Azure Application Gateway"
+  ]
+},
+{
+  "_id": 20,
+  "question": "Which storage tier in Azure Storage delivers the lowest cost of data storage?",
+  "answers": [
+    "Hot",
+    "Cold",
+    "Cool",
+    "@Archive"
+  ]
+},
+{
+  "_id": 35,
+  "question": "Azure SQL Database and an on-premises SQL cluster represent a(n) _ expense and a(n) __ expense, respectively.",
+  "answers": [
+    "Capital, Capital",
+    "Capital, Operational",
+    "Operational, Operational",
+    "@Operational, Capita"
+  ]
+},
+{
+  "_id": 3,
+  "question": "Contoso host databases for customer-facing web applications in Azure MySQL Database. Which cloud computing model best categorizes this service?",
+  "answers": [
+    "Software as a service (SaaS)",
+    "@Platfom as a service (PaaS)",
+    "infrastructure as a service (IaaS)",
+    "Function as a service (Faa$)"
+  ]
+},
+{
+  "_id": 16,
+  "question": "Contoso has messages from a variety of sources (many Azure services) that need to be need to be relayed to an application. Which Azure service would be best suited to the task?",
+  "answers": [
+    "Azure Functions",
+    "@Azure Event Grid",
+    "Azure IoT Hub",
+    "Azure Service Bus"
+  ]
+},
+{
+  "_id": 23,
+  "question": "‘Which of the following statements are true of a Software as a Service solution?",
+  "answers": [
+    "You are responsible for maintaining the solution infrastructure",
+    "You are responsible for deploying updates to the solution",
+    "You are responsible for solution availability and scalability",
+    "@You are responsible for configuring the solution features"
+  ]
+},
+{
+  "_id": 110,
+  "question": "Compare using Azure PowerShell and Azure CLI for Azure management. To answer, select the appropriate option. -Command execution supported in Azure Cloud Shell.",
+  "answers": [
+    "Azure CLI only",
+    "Azure PowerShell only",
+    "@Both",
+    "Neither"
+  ]
+},
+{
+  "_id": 106,
+  "question": "You recently signed up for a free Azure subscription. You need to familiarize yourself with the Azure portal UI. Which UI element best match the description? To answer, choose the appropriate UI element. -A collection of customizable tiles that are displayed in the portal.",
+  "answers": [
+    "Blade",
+    "@Dashboard"
+  ]
+},
+{
+  "_id": 118,
+  "question": "Which feature of Azure Monitor allows you to visually analyze telemetry data?",
+  "answers": [
+    "@Application Insights",
+    "Servide Health",
+    "Metrics",
+    "Alerts"
+  ]
+},
+{
+  "_id": 116,
+  "question": "For each of the following statements regarding implementing infrastructure as code (IaC) in your Azure environment, select the statements that are true.",
+  "answers": [
+    "@The likelihood of configuration mistakes causing a system outage will be reduced.",
+    "Non-administrative users will be prevented from making configuration changes.",
+    "@Configurations for devices and systems will continue to be stored locally on the device.",
+    "Administrators will no longer be required to maintain configurations for network devices."
+  ]
+},
+{
+  "_id": 103,
+  "question": "You need to use Azure Cloud Shell to manage Linux virtual machines (VMs) that are already deployed and in use.",
+  "answers": [
+    "For each of the following management tools, select the tools that you can use to manage Linux VMs in Cloud Shell.",
+    "@Azure Command-line interface (CLI)",
+    "@Azure PowerShell",
+    "Azure portal"
+  ]
+},
+{
+  "_id": 122,
+  "question": "You need to understand Azure monitoring options. Which monitoring feature should you use for the scenario? To answer, choose the appropriate feature for the  scenario. -You want to view the number of virtual machines (VMs) that are currently down.",
+  "answers": [
+    "Alerts",
+    "Application Insights",
+    "@Resource Health",
+    "Metrics"
+  ]
+},
+{
+  "_id": 121,
+  "question": "You need to understand Azure monitoring options. Which monitoring feature should you use for the scenario? To answer, choose the appropriate feature for the  scenario. -You want to receive an email whenever the number of requests to a web app exceeds 10,000 within an hour.",
+  "answers": [
+    "@Alerts",
+    "Application Insights",
+    "Resource Health",
+    "Metrics"
+  ]
+},
+{
+  "_id": 102,
+  "question": "Your company is planning an Azure cloud deployment that must meet the following requirements: • Improve the continuity of business-critical applications • Improve application performance • Detect threats and vulnerabilities • Reduce overall Azure costs You need to use a tool that will help you make these types of recommendations. Which tool should you use? To answer, choose the appropriate option in the answer area.",
+  "answers": [
+    "create a resource",
+    "home",
+    "dashboad",
+    "all services",
+    "all resources",
+    "resource groups",
+    "app services",
+    "function apps",
+    "sql databases",
+    "azure cosmos DB",
+    "virtual machine",
+    "load balancers",
+    "storage accounts",
+    "virtual networks",
+    "azure activate directory",
+    "monitor",
+    "@advisor",
+    "security center",
+    "cost management + billing",
+    "help + support"
+  ]
+},
+{
+  "_id": 105,
+  "question": "Which statements accurately describe Azure PowerShell? For each of the following statements, select the statements that are true.",
+  "answers": [
+    "@Azure PowerShell can be used to create scripts to automate Azure management tasks.",
+    "Azure PowerShell virtual machine (VM) management is limited to Windows VMs only.",
+    "@Azure PowerShell can be run in a browser in the Azure Cloud Shell.",
+    "Azure Resource Manager templates use Azure PowerShell syntax."
+  ]
+},
+{
+  "_id": 101,
+  "question": "You create an Azure subscription.You need to determine when you should use specific Azure management tools.When should you use a tool? To answer, choose the appropriate tool for the scenario. -You want to run the following cmdlet in a scripting environment inside the browser: New-AzVm",
+  "answers": [
+    "Azure CLI",
+    "@Azure Cloud Shell",
+    "Azure PowerShell"
+  ]
+},
+{
+  "_id": 112,
+  "question": "Compare using Azure PowerShell and Azure CLI for Azure management. To answer, select the appropriate option. -Supports an optional GUI interface.",
+  "answers": [
+    "Azure CLI only",
+    "Azure PowerShell only",
+    "Both",
+    "@Neither"
+  ]
+},
+{
+  "_id": 117,
+  "question": "Your company has a hybrid Azure cloud infrastructure in Virginia. It consists of Azure virtual machines (VMs), an App Service, a SQL Database instance, and an on-premises web server that hosts a Windows Communication Foundation (WCF) service. You consider using the Azure Service Health feature. You need to determine the use cases for which Service Health is beneficial. In which three use cases is Service Health beneficial? To answer, choose the appropriate use cases.",
+  "answers": [
+    "@You want to respond to planned service outages in Virginia.",
+    "You want to view App Service performance with Windows Task Manager.",
+    "@You want to implement a webhook on your website to display health incidents.",
+    "@You want to be notified if your App Service usage exceeds the usage quota.",
+    "You want to receive an email when an unauthorized user attempts to access a VM."
+  ]
+},
+{
+  "_id": 119,
+  "question": "Which Azure service is used to send an email to an administrator when a virtual machine (VM) is about to exceed its usage quota for the month?",
+  "answers": [
+    "Azure Monitor metrics",
+    "@Azure Monitor alerts",
+    "Application Insights",
+    "Service Health"
+  ]
+},
+{
+  "_id": 134,
+  "question": "Match the statement with the correct cloud model. To answer, select the appropriate cloud model. -A company plans to use a custom software as a service (SaaS) application and wants to minimize costs. The company is legally required to maintain and secure all data onsite.",
+  "answers": [
+    "@Hybrid model",
+    "Private model",
+    "Public model"
+  ]
+},
+{
+  "_id": 139,
+  "question": "Match the type of cloud computing with its description. To answer, choose the appropriate type for the  description. -Cloud resources are maintained on a private network and used exclusively by one business or organization.",
+  "answers": [
+    "Hybrid cloud",
+    "@Private cloud",
+    "Public cloud"
+  ]
+},
+{
+  "_id": 113,
+  "question": "Identify the features of Azure Cloud Shell.For each of the following statements, select the statements that are true.",
+  "answers": [
+    "When running Azure PowerShell with Cloud Shell, both Linux-specific and Windows-specific functionality is available.",
+    "@Cloud Shell times out after 20 minutes of inactivity.",
+    "@Cloud Shell provides a way to run Azure Command-Line Interface (CLI) and Azure PowerShell on iOS and Android mobile devices."
+  ]
+},
+{
+  "_id": 115,
+  "question": "You need to quickly deploy or clone application testing environments on an as-needed basis.Which two DevOps tools or practices could you use? Each correct answer presents a complete solution.",
+  "answers": [
+    "@ARM templates",
+    "Azure Arc",
+    "Virtual machine (VM) scale sets",
+    "Micro-segmentation",
+    "@Infrastructure as code"
+  ]
+},
+{
+  "_id": 128,
+  "question": "You are going to start collecting data about your Azure infrastructure with Azure Monitor. Which type of data collection requires you to enable diagnostics?",
+  "answers": [
+    "@Event logs",
+    "Container workload performance",
+    "Usage of Web applications",
+    "Linux virtual machine (VM) health"
+  ]
+},
+{
+  "_id": 131,
+  "question": "A coworker informs you of a planned Azure maintenance window. You attempt to verify this information using the tool shown in the Exhibit. You are still uncertain whether the maintenance will impact services you use. What should you do to determine how this maintenance might impact your organization?",
+  "answers": [
+    "@Verify any planned maintenance via the Service Health dashboard.",
+    "Check the Azure status page for any planned maintenance outages.",
+    "Select the resource types for your account in Resource Health."
+  ]
+},
+{
+  "_id": 114,
+  "question": "You deploy a new Linux virtual machine (VM) and then manually adjust its configuration in Azure portal to meet the requirements of your Development environment. You need to capture changes made to the Development VM's configuration after the original deployment, so that you can reuse it as a template in the deployment of Test and Production VMs. Which two actions can you perform to achieve your goal? Each correct answer presents a complete solution.",
+  "answers": [
+    "@Export the Azure Resource Manager (ARM) template from a resource group.",
+    "@Export the Azure Resource Manager (ARM) template from a resource.",
+    "Export the Azure Resource Manager (ARM) template before deployment."
+  ]
+},
+{
+  "_id": 120,
+  "question": "You need to understand Azure monitoring options. Which monitoring feature should you use for the scenario? To answer, choose the appropriate feature for the  scenario. -You want to enable developers to improve app performance and usability.",
+  "answers": [
+    "Alerts",
+    "@Application Insights",
+    "Resource Health",
+    "Metrics"
+  ]
+},
+{
+  "_id": 107,
+  "question": "You recently signed up for a free Azure subscription. You need to familiarize yourself with the Azure portal UI. Which UI element best match the description? To answer, choose the appropriate UI element. -A panel that slides out in a navigation sequence.",
+  "answers": [
+    "@Blade",
+    "Resource Panel"
+  ]
+},
+{
+  "_id": 108,
+  "question": "You recently signed up for a free Azure subscription. You need to familiarize yourself with the Azure portal UI. Which UI element best match the description? To answer, choose the appropriate UI element. -A service that provides recommendations on high availability.",
+  "answers": [
+    "@Azure Advisor",
+    "Azure Marketplace"
+  ]
+},
+{
+  "_id": 137,
+  "question": "Your company wants to know which cloud deployment model would work best for them. You need to choose the appropriate model for the scenario. Which model should you use in the scenario? To answer, select the appropriate models. -Your company does not have IT experts or the money to purchase its own servers.",
+  "answers": [
+    "Hybird",
+    "Private",
+    "@Public"
+  ]
+},
+{
+  "_id": 144,
+  "question": "You have 50 virtual machines hosted on-premises and 50 virtual machines hosted in Azure. The on-premises virtual machines and the Azure virtual machines connect to each other. Which type of cloud model is this?",
+  "answers": [
+    "@hybrid",
+    "private",
+    "public"
+  ]
+},
+{
+  "_id": 123,
+  "question": "You need to understand Azure monitoring options. Which monitoring feature should you use for the  scenario? To answer, choose the appropriate feature for the scenario. -You want to know how many times your web app has been unavailable during the past month.",
+  "answers": [
+    "Health advisories",
+    "Health alerts",
+    "@Health history",
+    "Planned maintenance",
+    "Service issues"
+  ]
+},
+{
+  "_id": 129,
+  "question": "To complete the statement in the answer area, select the appropriate option. -Azure Monitor begins collecting data ___________.",
+  "answers": [
+    "as soon as you launch Azure Management Portal.",
+    "@as soon as you add a resource to a new Azure subscription.",
+    "after you enable diagnostics.",
+    "only after you create the metrics and logs data stores."
+  ]
+},
+{
+  "_id": 133,
+  "question": "Match the statement with the correct cloud model. To answer, select the appropriate cloud model. -A company needs to implement a solution where it maintains management control over hardware and infrastructure. The solution can be physically deployed offsite.",
+  "answers": [
+    "Hybrid model",
+    "@Private model",
+    "Public model"
+  ]
+},
+{
+  "_id": 142,
+  "question": "Match each benefit of cloud computing with its description. To answer, choose the appropriate benefit for the description. -Automatically increasing or decreasing resources to meet spikes and drops in demand.",
+  "answers": [
+    "Agility",
+    "@Elasticity",
+    "Scalability",
+    "High Availability"
+  ]
+},
+{
+  "_id": 125,
+  "question": "You need to understand Azure monitoring options. Which monitoring feature should you use for the  scenario? To answer, choose the appropriate feature for the scenario. -You want to view the Azure features that are planned to be deprecated.",
+  "answers": [
+    "@Health advisories",
+    "Health alerts",
+    "Health history",
+    "Planned maintenance",
+    "Service issues"
+  ]
+},
+{
+  "_id": 135,
+  "question": "Your company wants to know which cloud deployment model would work best for them. You need to choose the appropriate model for the scenario. Which model should you use in the scenario? To answer, select the appropriate models. -Your company wants to create a virtual network with 10 virtual machines (VMs) and no capital expenditure (CapEx) costs.",
+  "answers": [
+    "Hybird",
+    "Private",
+    "@Public"
+  ]
+},
+{
+  "_id": 111,
+  "question": "Compare using Azure PowerShell and Azure CLI for Azure management. To answer, select the appropriate option. -Executes commands in an interactive environment.",
+  "answers": [
+    "Azure CLI only",
+    "Azure PowerShell only",
+    "@Both",
+    "Neither"
+  ]
+},
+{
+  "_id": 138,
+  "question": "Match the type of cloud computing with its description. To answer, choose the appropriate type for the  description. -Cloud resources are owned and operated by a service provider and delivered over the Internet.",
+  "answers": [
+    "Hybrid cloud",
+    "Private cloud",
+    "Public @cloud"
+  ]
+},
+{
+  "_id": 124,
+  "question": "You need to understand Azure monitoring options. Which monitoring feature should you use for the  scenario? To answer, choose the appropriate feature for the scenario. -You want you and your team members to receive a text message when Azure maintenance is planned.",
+  "answers": [
+    "Health advisories",
+    "@Health alerts",
+    "Health history",
+    "Planned maintenance",
+    "Service issues"
+  ]
+},
+{
+  "_id": 126,
+  "question": "Which Azure service can use autoscale to add or remove resources as appropriate to minimize costs and ensure optimum performance levels?",
+  "answers": [
+    "@Azure Monitor",
+    "Azure Advisor",
+    "Azure Service Health",
+    "Microsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 127,
+  "question": "Which Azure component provides information about planned maintenance and advisories such as deprecated offerings?",
+  "answers": [
+    "Azure Monitor",
+    "Microsoft Defender for Cloud",
+    "Azure Advisor",
+    "Azure Service Health"
+  ]
+},
+{
+  "_id": 141,
+  "question": "Match each benefit of cloud computing with its description. To answer, choose the appropriate benefit for the description. -Manually increasing or decreasing resources to meet a predictable workload.",
+  "answers": [
+    "Agility",
+    "Elasticity",
+    "@Scalability",
+    "High Availability"
+  ]
+},
+{
+  "_id": 130,
+  "question": "Which two locations are valid destinations for platform logs and metrics collected by Azure Monitor? Each correct answer presents a complete solution.",
+  "answers": [
+    "@An Azure storage account",
+    "@An Azure Log Analytics workspace",
+    "A Resource Health dashboard",
+    "An Azure Advisor monitos"
+  ]
+},
+{
+  "_id": 136,
+  "question": "Your company wants to know which cloud deployment model would work best for them. You need to choose the appropriate model for the scenario. Which model should you use in the scenario? To answer, select the appropriate models. -Your company wants to control the methods used to have a high level of security for its resources.",
+  "answers": [
+    "Hybird",
+    "@Private",
+    "Public"
+  ]
+},
+{
+  "_id": 132,
+  "question": "Match the statement with the correct cloud model. To answer, select the appropriate cloud model. -A company wants to deploy multiple servers to host web applications but wants to keep hardware costs and management costs to a minimum. The solution should be highly scalable.",
+  "answers": [
+    "Hybrid model",
+    "Private model",
+    "@Public model"
+  ]
+},
+{
+  "_id": 140,
+  "question": "Match the type of cloud computing with its description. To answer, choose the appropriate type for the  description. -This is a combination of on-premises infrastructure with a public cloud.",
+  "answers": [
+    "@Hybrid cloud",
+    "Private cloud",
+    "Public cloud"
+  ]
+},
+{
+  "_id": 104,
+  "question": "Which Azure management tool provides a graphic interface for deploying, managing, and monitoring Azure resources?",
+  "answers": [
+    "@Azure portal",
+    "Azure PowerShell",
+    "Azure Command-line interface (CLI)",
+    "Azure Resource Manager"
+  ]
+},
+{
+  "_id": 109,
+  "question": "Compare using Azure PowerShell and Azure CLI for Azure management. To answer, select the appropriate option. -Commands work the same on Mac, Linux, and Windows.",
+  "answers": [
+    "Azure CLI only",
+    "Azure PowerShell only",
+    "@Both",
+    "Neither"
+  ]
+},
+{
+  "_id": 143,
+  "question": "Match each benefit of cloud computing with its description. To answer, choose the appropriate benefit for the description. -Speed and flexibility in allocation and deallocation of required resources.",
+  "answers": [
+    "@Agility",
+    "Elasticity",
+    "Scalability",
+    "High Availability"
+  ]
+},
+{
+  "_id": 61,
+  "question": "Contoso has implemented a hybrid, synchronized identity model, consisting of on-premises Active Directory and Entra ID. They want to more effectively protect their on-premises identities from external threats. Which service should they choose?",
+  "answers": [
+    "Azure Identity Protection",
+    "@Microsoft Defender for Endpoint",
+    "Azure DDoS",
+    "Microsoft Information Protection"
+  ]
+},
+{
+  "_id": 49,
+  "question": "You need to alert on service failures in your Azure services, such as web app instances hosted in App Service, and Azure VMs that stop running for any reason. Which tool should you use?",
+  "answers": [
+    "Azure App Insights",
+    "Azure Log Analytics",
+    "@Azure Monitor",
+    "Microsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 54,
+  "question": "Contoso IT has deployed multiple Azure VM across 15 virtual networks. How can you most securely limit inbound traffic and protect these VMs from unwanted inbound requests? (choose the best answer)",
+  "answers": [
+    "Create a network security group (NSG)",
+    "@Deploy an Azure Firewall",
+    "Deploy an Azure Load Balancer",
+    "Deploy a virtual network gateway"
+  ]
+},
+{
+  "_id": 42,
+  "question": "Contoso IT wants to develop modern application components using a serverless architecture. Which Azure service is best for hosting code as part of a services infrastructure?",
+  "answers": [
+    "Azure Logic Apps",
+    "@Azure Functions",
+    "Azure Service Bus",
+    "Azure Automation"
+  ]
+},
+{
+  "_id": 65,
+  "question": "The Contoso Legal Department has asked Contoso IT to verify whether the Contoso's Azure environment meets regulatory requirements. Which service should you use to answer this question?",
+  "answers": [
+    "Azure Advisor",
+    "@Micorsoft Defender for Cloud",
+    "Microsoft Purview",
+    "Azure Policy"
+  ]
+},
+{
+  "_id": 53,
+  "question": "You have deployed an Azure VM hosting a line-of-business web application. You need to provide access to the application over the Internet via HTTP/S. You add a security rule to the Network Security Group (NSG) to allow inbound traffic from the Internet. Does this solution meet the requirement?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 59,
+  "question": "You are responsible for creating Azure resources at Contoso using ARM templates. You need to ensure Azure resources are only created in approved regions. What should you use to enforce this requirement",
+  "answers": [
+    "Azure locks",
+    "@Azure Policy",
+    "Azure Blueprint",
+    "Microsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 43,
+  "question": "You can monitor health and performance of microservices applications running on Azure Kubernetes Service (AKS) with:",
+  "answers": [
+    "Azure Monitor",
+    "@Azure App Insights",
+    "Azure Sentinel",
+    "Microsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 41,
+  "question": "You need to manage your Azure VMs using the Azure portal. Which URL would you use to manage the Azure VMs?",
+  "answers": [
+    "htps://portal.azurewebsites.net",
+    "htps://portal.microsoft.com",
+    "https://portal.azure.microsoft.com",
+    "@https://portal.azure.com"
+  ]
+},
+{
+  "_id": 47,
+  "question": "You need to automate responses to some alerts from Azure Monitor. Which service supports automating responses and corrective actions in this scenario?",
+  "answers": [
+    "Power Automate",
+    "Azure Logic Apps",
+    "Azure Web Jobs",
+    "@Azure Automation"
+  ]
+},
+{
+  "_id": 72,
+  "question": "Contoso's Security team wants to implement selective use of multi-factor authentication (MFA) based on multiple factors related to the authentication request, such as device health and sign-in risk. Which service should they implement?",
+  "answers": [
+    "Conditional Access",
+    "@Identity Protection",
+    "Multi-Factor Authentication (MFA)",
+    "Windows Hello for Business"
+  ]
+},
+{
+  "_id": 44,
+  "question": "You need to store unstructured data, such as images, video files, social media posts on Azure Storage. Which type of Azure Storage is optimized for storage of large amounts of unstructured data?",
+  "answers": [
+    "Table Storage",
+    "Queue Storage",
+    "Disk Storage",
+    "@Blog Storage"
+  ]
+},
+{
+  "_id": 56,
+  "question": "Tailspin Toys relies heavily on Entra ID for cloud identity. They want to more effectively protect their identities from external threats. Which service should they choose?",
+  "answers": [
+    "@Azure Identity Protection",
+    "Microsoft Defender for Endpoint",
+    "Azure DDoS",
+    "Microsoft Information Protection"
+  ]
+},
+{
+  "_id": 82,
+  "question": "Contoso needs Azure capacity to support spikes in request traffic to their load-balanced web farm during the holiday shopping season. A consultant recommends deploying the website to a virtual machine scale set in Azure. Will this meet the requirement?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 81,
+  "question": "Which Azure storage redundancy option would you select for development workloads where minimizing expense is the highest priority?",
+  "answers": [
+    "@Zone Redundant Storage (ZRS)",
+    "Geo-Redundant Storage (GRS)",
+    "Geo-Zone Redundant Storage (GZRS)",
+    "Locally Redundant Storage (LRS)"
+  ]
+},
+{
+  "_id": 85,
+  "question": "Contoso IT is planning to migrate all on-premises data to Azure. The Legal Department has asked for verification that Azure complies with Contoso's regulatory obligations, such as HIPAA and PCI DSS. Which Azure service can be used to monitor for regulatory compliance?",
+  "answers": [
+    "Azure App Insights",
+    "Azure Advisor",
+    "Azure Monitor",
+    "@Micorsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 96,
+  "question": "Tailspin Toys uses a pay-as-you-go (PAYG) subscription in Azure. PAYG generally provides lowest cost over time, but least flexibility in terms of shifting consumption to new services.",
+  "answers": [
+    "TRUE",
+    "@FALSE"
+  ]
+},
+{
+  "_id": 94,
+  "question": "Azure App Service supports which of the following application type(s)?",
+  "answers": [
+    "Web apps",
+    "Mobile apps",
+    "API apps",
+    "All the above"
+  ]
+},
+{
+  "_id": 45,
+  "question": "Contoso IT has deployed a group of Azure VMs for hosting production. They want best practices recommendations for high availability of their VM resources. Will the Azure Advisor tool provide recommendations for these existing resources?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 67,
+  "question": "Contoso Electronics is a global retailer. The Contoso Cloud Architecture team needs to simplify deployments of new environments in Azure, including Azure Resource Manager (ARM) templates , role-based access, and policies. Which Azure service enables delivery of templates for repeatable deployment and configuration of new subscriptions and environments? (choose the best answer)",
+  "answers": [
+    "Azure Policy initiatives",
+    "Azure Policy",
+    "ARM templates",
+    "@Azure Blueprints"
+  ]
+},
+{
+  "_id": 48,
+  "question": "The Contoso IT Operations team needs to aggregate events from alarge number of resources hosted in Azure for correlation, alerting, and reporting. Which Azure service would you use to centrally collect, store, and act on events?",
+  "answers": [
+    "Azure App Insights",
+    "@Azure Monitor",
+    "Azure Data Lake",
+    "Azure Event Hub"
+  ]
+},
+{
+  "_id": 84,
+  "question": "You need to identify deviations from Microsoft security best practices in your Azure cloud infrastructure. Which service should you use?",
+  "answers": [
+    "Azure Advisor",
+    "@Micorsoft Defender for Cloud",
+    "Azure Monitor",
+    "Azure Key Vault"
+  ]
+},
+{
+  "_id": 83,
+  "question": "Which type of Azure storage stores NoSQL data in Azure, including a schemaless key/attribute store?",
+  "answers": [
+    "Queue Storage",
+    "@Table Storage",
+    "Blob Storage",
+    "File Storage"
+  ]
+},
+{
+  "_id": 90,
+  "question": "Contoso is planning to move several on-premises services to Azure Paas and laa$ solutions. The CIO has asked for a tool to estimate the cost of hosting these resources in Azure. Tom suggests Azure Cost Management to estimate costs prior to migration. Does Tom's solution meet the solution criteria?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 93,
+  "question": "Contoso IT has deployed a group of VMs in Azure. They want to identify recommendations on how to reduce the cost of running these VMs. Which tool should they use? (choose the best answer)",
+  "answers": [
+    "Azure Price Calculator",
+    "@Azure Advisor",
+    "Azure Cost Management",
+    "Microsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 46,
+  "question": "The Contoso IT Operations team needs to monitor their customer-facing web apps for performance anomalies. Which Azure service will best fulfill this need?",
+  "answers": [
+    "Azure WebJobs",
+    "@Azure Applications Insights",
+    "Azure Automation",
+    "Azure Sentinel"
+  ]
+},
+{
+  "_id": 69,
+  "question": "You need to configure access to Office 365 resources for users at Contoso. To group users for assignment of permissions, which of the following options would you use?",
+  "answers": [
+    "Microsoft 365 group",
+    "Resource group",
+    "@Security group",
+    "Management group"
+  ]
+},
+{
+  "_id": 71,
+  "question": "You need to ensure on-premises file shares and Azure Files remain in sync in both directions, regardless of where the file was changed. Which tool or service would you choose? (choose the best answer)",
+  "answers": [
+    "AzCopy",
+    "Azure Storage Explorer",
+    "@Azure File Sync",
+    "Azure Data Box"
+  ]
+},
+{
+  "_id": 74,
+  "question": "You need to identify and enforce Contoso's corporate standards across new and existing Azure deployments. Which service would you choose to achieve this requirement? (choose the best answer)",
+  "answers": [
+    "Azure Blueprints",
+    "@Azure Policy",
+    "Azure Resource Manager (ARM) templates",
+    "Azure Automation"
+  ]
+},
+{
+  "_id": 75,
+  "question": "Using role based access control (RBAC) in Azure, we can determine which resources and services a user has access to. This is an example of:",
+  "answers": [
+    "@Authorization",
+    "Authentication",
+    "Integrity",
+    "Confidentiality"
+  ]
+},
+{
+  "_id": 79,
+  "question": "You need to track resource consumption by application and department for cost tracking and chargeback. Which of the following will enable this capability.",
+  "answers": [
+    "Azure Monitor",
+    "@Tags",
+    "Azure",
+    "Management Groups"
+  ]
+},
+{
+  "_id": 89,
+  "question": "Contoso IT Operations has been tasked with providing recommendations on how to reducing cost of running Azure VMs. Which service should they use to gather recommendations?",
+  "answers": [
+    "Microsoft Defender for Cloud",
+    "@Azure Advisor",
+    "Azure Monitor",
+    "Azure App Insights"
+  ]
+},
+{
+  "_id": 92,
+  "question": "You plan to deploy several Azure VMs. The applications running on these VMs should remain available if a single Azure datacenter fails. You opt to deploy VMs to multiple availability zones. Does your solution meet the solution criteria?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 95,
+  "question": "‘Which virtual machine configuration supports a more resilient, highly available environment by staggering VM updates and ensuring varied power and network connectivity?",
+  "answers": [
+    "Virtual machine scale sets",
+    "@Virtual machine availability sets",
+    "virtual cluster",
+    "Azure Virtual Desktop"
+  ]
+},
+{
+  "_id": 50,
+  "question": "You can find recommendations for security best practices security configuration for Azure Kubernetes Service (AKS) with:",
+  "answers": [
+    "Azure Monitor",
+    "Azure App Insights",
+    "Microsoft Sentinel",
+    "@Microsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 66,
+  "question": "What are the three foundational principles of Zero Trust?",
+  "answers": [
+    "@1) Verify explicitly 2) Use least privilege access 3) Assume breach",
+    "1) Verify explicitly 2) Use defense in depth 3) Assume breach",
+    "1) Verify explicitly 2) Trust but verify 3) Assume breach",
+    "1) Verify explicitly 2) Use least privilege access 3) Trust must be earned"
+  ]
+},
+{
+  "_id": 98,
+  "question": "Azure Container Instances enable elastic bursting for Azure Kubernetes Service",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 76,
+  "question": "Azure China and Azure Government are examples of:",
+  "answers": [
+    "Private clouds",
+    "@Sovereign regions",
+    "Azure geographies",
+    "Management groups"
+  ]
+},
+{
+  "_id": 52,
+  "question": "Which Microsoft solution provides support for passwordless authentication on Windows 10 and 11 systems?",
+  "answers": [
+    "Entra ID Conditional Access",
+    "Microsoft Authenticator",
+    "@Windows Hello for Business",
+    "Microsoft Purview"
+  ]
+},
+{
+  "_id": 99,
+  "question": "Azure VMs in different subnets in the same virtual network can communicate by default",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 78,
+  "question": "Which of the following describes authentication?",
+  "answers": [
+    "Determines which resources you can access",
+    "Defines the services and regions you can access",
+    "@Validates that a user is who they claim to be",
+    "Establishes your resource access"
+  ]
+},
+{
+  "_id": 58,
+  "question": "You need to prevent accidental deletion of Azure resources in your subscription. Which feature will meet this requirement? (choose the best answer)",
+  "answers": [
+    "RBAC",
+    "@Resource Locks",
+    "Security groups",
+    "Azure policies"
+  ]
+},
+{
+  "_id": 86,
+  "question": "You need to calculate the estimated cost of a set of Azure resources before you deploy them. Which service or tool will you use?",
+  "answers": [
+    "Azure Advisor",
+    "@Azure Pricing Calculator",
+    "Azure Cost Management",
+    "Azure TCO Calculator"
+  ]
+},
+{
+  "_id": 57,
+  "question": "In a Site-to-Site VPN, the__is the cross-premises gateway that connects your Azure Virtual Network with your on-premises VPN appliances",
+  "answers": [
+    "Azure Application Gateway",
+    "@Azure Virtual Network Gateway",
+    "Local Network Gateway",
+    "Private Endpoint"
+  ]
+},
+{
+  "_id": 70,
+  "question": "Implementing Azure MFA (multi-factor authentication) will ensure we know who the user is who they claim to be. This is an example of:",
+  "answers": [
+    "Authorization",
+    "@Authenticator",
+    "Integrity",
+    "Confidentiality"
+  ]
+},
+{
+  "_id": 60,
+  "question": "Contoso IT assigns permissions at the resource group level for all resources deployed to Azure. Will resources in the resource group inherit permissions assigned to the resource group?",
+  "answers": [
+    "@0YES",
+    "NO"
+  ]
+},
+{
+  "_id": 62,
+  "question": "You need to implement multi-factor authentication for your Entra ID users. However, you only want to prompt for an additional authentication factor when users are not in a trusted location on an unmanaged device. Which feature should you implement? (choose the best answer)",
+  "answers": [
+    "Microsoft Purview",
+    "Identity Protection",
+    "@Conditional Access",
+    "Privileged Identity Management"
+  ]
+},
+{
+  "_id": 64,
+  "question": "You need to support OATH tokens (one-time password) as a second authentication factor for Entra ID. What Microsoft solution enables use of OATH tokens for Entra ID and other identity providers?",
+  "answers": [
+    "Entra ID Identity Protection",
+    "@Microsoft Authenticator",
+    "Conditional Access",
+    "Entra ID Multi-Factor Authentication"
+  ]
+},
+{
+  "_id": 73,
+  "question": "Contoso has deployed resources across multiple Azure regions for multiple business units. They have a requirement to generate cost and chargeback reporting to track the Azure costs to be charged back to each business unit. Which Azure feature should they use to simplify this task?",
+  "answers": [
+    "@Tags",
+    "Resource Locks",
+    "Resource Groups",
+    "Management Groups"
+  ]
+},
+{
+  "_id": 77,
+  "question": "You need to ensure no one (including administrators) can create additional resources in a Azure resource group. What will you do to achieve this objective?",
+  "answers": [
+    "Azure Policy",
+    "Role based access control (RBAC)",
+    "@Resource locks",
+    "Microsoft Defender for Cloud"
+  ]
+},
+{
+  "_id": 80,
+  "question": "You need to automate movement of multiple files to a storage account. What command line tool can you use to script copying blobs or files to or from your storage account? (choose the best answer)",
+  "answers": [
+    "Azure File Sync",
+    "Azure Storage Explorer",
+    "@AzCopy",
+    "Azure Data Box"
+  ]
+},
+{
+  "_id": 87,
+  "question": "As part of a migration of on-premises VM workloads to Azure VMs, Contoso wants to minimize costs. Since the VMs will be runningin Azure for an extended period of time (years), what option should they consider to reduce hosting costs?",
+  "answers": [
+    "Azure Cost Management",
+    "@Azure Reservations",
+    "Azure Advisor",
+    "VM Scale Sets"
+  ]
+},
+{
+  "_id": 91,
+  "question": "To manage service lifecycle with more granularity, Contoso cloud architects have designed a model that involves a large number of resource groups. Will Contoso incur additional costs for the resources groups?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 68,
+  "question": "Your company is planning to host services in Azure. Youwant to leverage identities in Entra ID, but still need to support on-premises identities in Active Directory. Can you support single sign-on (SSO) and multi-factor authentication for both on-premises and cloud with Entra ID?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 88,
+  "question": "A___isavirtual network gateway that sends encrypted traffic between an Azure VNET and an on-premises location over the Internet",
+  "answers": [
+    "App gateway",
+    "Web proxy",
+    "@VPN gateway",
+    "Private endpoint"
+  ]
+},
+{
+  "_id": 51,
+  "question": "Azure VMs in different virtual networks can communicate by default",
+  "answers": [
+    "TRUE",
+    "FALSE"
+  ]
+},
+{
+  "_id": 97,
+  "question": "Azure Container Instances enable running containers without host servers to manage.",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 100,
+  "question": "Azure DDoS, which protects your Azure resources against distributed denial of services attacks, includes both a Basic and Standard tiers.",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 55,
+  "question": "You need to define and enforce corporate standards for new and existing Azure resource deployments in all of Contoso's Azure subscriptions. What should you use to meet this objective?",
+  "answers": [
+    "@Azure Policy",
+    "Microsoft Defender for Cloud",
+    "Microsoft Sentinel",
+    "Azure Advisor"
+  ]
+},
+{
+  "_id": 63,
+  "question": "The Contoso Security team has implemented a new security policy. When users connect from an outside corporate offices, they must be prompted for MFA. Which feature will you implement?",
+  "answers": [
+    "Entra ID Privileged Identity Management",
+    "One Time Passwords (OTP)",
+    "Entra ID Identity Protection",
+    "@Entra ID Conditional Access"
+  ]
+},
+{
+  "_id": 227,
+  "question": "A company is planning to deploy Azure resources to a resource group. The company is planning to assign tags to the resource groups. Would the resources in the resource group also inherit the same tags?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 206,
+  "question": "Which of the following Storage account redundancy options keeps the copies of your data in three availability zones in the primary region and in a single datacenter in the secondary region for high availability?",
+  "answers": [
+    "A. GRS (Geo-redundant storage)",
+    "B. ZRS (Zone-redundant storage)",
+    "C. LRS(Locally-redundant storage)",
+    "@ D. GZRS (Geo-Zone redundant storage)"
+  ]
+},
+{
+  "_id": 215,
+  "question": "A company wants to use Azure for the deployment of various solutions. They want to ensure that whenever users authenticate to Azure, they have to use Multi-Factor Authentication. Which of the following can help them achieve this?",
+  "answers": [
+    "A. Azure Service Trust ",
+    "B. Microsoft Defender for Cloud",
+    "C.Azure DDoS protection",
+    "@ D. Privileged Identity Management"
+  ]
+},
+{
+  "_id": 203,
+  "question": "A company is planning to set up an Azure Free Account. Does the Standard Support plan come along with the Azure Free Account?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 202,
+  "question": "What are the additional dependent resources that an Azure virtual machine must have?",
+  "answers": [
+    "A. Public IP",
+    "@B. Azure Virtual Network",
+    "C. Data Disk",
+    "@D. NIC Card."
+  ]
+},
+{
+  "_id": 225,
+  "question": "A company needs to implement a solution in Azure. Below are the key requirements for this solution.   ●      No need for schema or Index management    ●      Ensure low latency access to data from around the world. Which of the following data solution would you consider for this requirement?",
+  "answers": [
+    "A. Azure SQL Database",
+    "@ B.Azure CosmosDB",
+    "C.Azure SQL Datawarehouse",
+    "D.SQL Server Stretch database"
+  ]
+},
+{
+  "_id": 223,
+  "question": "A company is planning to set up a solution in Azure. The solution would have the following key requirement.    ●       A tool that provides guidance and recommendations to improve an Azure environment. Which of the following would be best suited for this requirement?",
+  "answers": [
+    "@ A. Azure Advisor",
+    "B.Azure Cognitive Services",
+    "C.Azure Application Insights",
+    "D.Azure Devops"
+  ]
+},
+{
+  "_id": 213,
+  "question": "An IT Engineer needs to use Azure Cloud Shell. Which of the following icons would you use for this purpose?",
+  "answers": [
+    "@ A. Option 1",
+    "B. Option 2",
+    "C. Option 3",
+    "D. Option 4"
+  ]
+},
+{
+  "_id": 209,
+  "question": "A company wants to try out some services which Azure is offering in preview. Does Microsoft provide a separate portal to work with preview features?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 220,
+  "question": "An IT administrator for a company has been given a PowerShell script. This PowerShell script will be used to create several Virtual Machines in Azure. You have to provide a machine to the IT administrator for running the PowerShell script. You decide to provide a LinuxOS-based machine (with Ubuntu) and use Azure Cloud Shell. Would this solution fit the requirement?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 201,
+  "question": "An IT Engineer needs to create a Virtual Machine in Azure. Currently, the IT Engineer has an Android OS based workstation. Which of the following can the IT Engineer use to create the desired Virtual Machine in Azure?",
+  "answers": [
+    "A. Microsoft Power Apps",
+    "@ B. Azure Cloud Shell",
+    "@ C. Azure Powershell",
+    "@ D. Azure CLI"
+  ]
+},
+{
+  "_id": 204,
+  "question": "A company is planning to use its Azure Free Account for hosting production-based resources. Does the Azure Free Account allow you to host production-based resources?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 208,
+  "question": "A management group tree can support up to _____ levels of depth.",
+  "answers": [
+    "A. 4",
+    "B. 5",
+    "@C. 6",
+    "D. 7"
+  ]
+},
+{
+  "_id": 205,
+  "question": "Your company is planning to use Azure AD for the authentication of the resources defined in Azure. Does Azure AD have the capabilities to implement authorization using Azure RBAC to secure resources?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 214,
+  "question": "A company needs to create around 50 customized Virtual Machines. Out of these, only 20 are Windows-based Virtual machines which are identical, and 30 are Ubuntu Machines, again of identical configuration. All virtual machines will be used in a load-balanced configuration. Which of the following would help reduce the administrative effort required to deploy the machines?",
+  "answers": [
+    "A. Azure Load Balancer",
+    "B. Azure Web Apps",
+    "C.Azure Traffic Manager",
+    "@ D. Azure Scale sets"
+  ]
+},
+{
+  "_id": 246,
+  "question": "The company wants to have an Enterprise messaging solution integrated with their existing application hosted in Azure. Please choose the correct option for the above-given requirement.",
+  "answers": [
+    "A. Logic App",
+    "B. API management",
+    "@C.Service Bus",
+    "D. Data Factory"
+  ]
+},
+{
+  "_id": 226,
+  "question": "A company is planning to deploy Azure resources to a resource group. But the resources would belong to different regions. Can you have resources that belong to the same resource group but be in multiple regions?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 232,
+  "question": "A company has deployed their solutions to Azure. They have users that connect to Microsoft Entra ID via the Internet. They have the requirement that they are prompted to change their password if users try to login from previously unseen IP addresses. Which of the following should the company consider for this requirement?",
+  "answers": [
+    "A. Microsoft Entra Connect Health",
+    "B. Microsoft Entra Privileged Identity Management",
+    "@ C.Microsoft Defender for Identity",
+    "D.Microsoft Entra ID"
+  ]
+},
+{
+  "_id": 242,
+  "question": "A company wants to host a mission-critical application on a set of Virtual Machines in Azure. They want to ensure that they can set up the infrastructure in Azure to guarantee the maximum possible uptime for the application. Which of the following can you make use of in Azure to fulfil this requirement? Choose 2 answers from the options given below.",
+  "answers": [
+    "A. Resource Groups",
+    "@ B. Availability Zones",
+    "@ C. Availability Sets",
+    "D. Resource Tags"
+  ]
+},
+{
+  "_id": 247,
+  "question": "A company is planning to host an application on a set of Virtual Machines. The Virtual Machines are going to be running for a longer period. Which of the following should be considered to reduce the overall cost of Virtual Machine usage?",
+  "answers": [
+    "A. Premium Disks",
+    "B. Virtual Machine Scale sets",
+    "@ C.Azure Reservations",
+    "D.Azure Resource Groups"
+  ]
+},
+{
+  "_id": 250,
+  "question": "A company wants to set up users in their Azure Account. They have segregated their users into groups. They now want to ensure that they set the right permissions for users and administrators accordingly. They need to manage the permissions effectively. You recommend using Azure Role-Based Access. Does this recommendation meet the requirement?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 251,
+  "question": "A company wants to set up users in their Azure Account. They have segregated their users into groups for their different Azure Subscriptions that they own. They now want to ensure that they set the right permissions for users and administrators accordingly. They need to manage the permissions effectively. You recommend using Azure Management Groups. Does this recommendation meet the requirement?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 230,
+  "question": "A company has a requirement to deploy 10 Azure resources for several departments. All of the resource types and configurations are the same. Which of the following could be used to automate the deployment of the resources using infrastructure as code?",
+  "answers": [
+    "@ A. Azure Resource Manager templates",
+    "B. Virtual machine scale sets",
+    "C.Azure API Management service",
+    "D.Management groups"
+  ]
+},
+{
+  "_id": 236,
+  "question": "A company has created a resource group, as shown below. They want to ensure that resources within the resource group don’t get accidentally deleted. Which of the following would you use for this purpose?",
+  "answers": [
+    "A. Microsoft Entra Connect Health",
+    "B. Microsoft Entra Privileged Identity Management",
+    "@ C.Microsoft Defender for Identity",
+    "D.Microsoft Entra ID"
+  ]
+},
+{
+  "_id": 212,
+  "question": "A company wants to ensure that their company's users are authenticated when they access resources defined in their Azure account. Which of the following is the correct definition of authentication?",
+  "answers": [
+    "A. This specifies the type of service you can use in Azure.",
+    "B.This specifies the type of data you can use in Azure.",
+    "@ C.This is the act of providing legitimate credentials.",
+    "D. This specifies what you can do in Azure."
+  ]
+},
+{
+  "_id": 249,
+  "question": "A company wants to set up users in its Azure Account. They have segregated their users into groups. They now want to ensure that they set the right privileges for users and administrators accordingly. They need to manage the privileges effectively. You recommend using Azure Policies. Does this recommendation meet the requirement?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 234,
+  "question": "A company plans to set up multiple resources in their Azure subscription. They want to implement tagging of resources in Azure. But they want to ensure that when resource groups are created, they have to contain a tag with the name of “organization” and the value of “whizlabs.” You recommend using Azure policies for implementing this requirement. Would this recommendation fulfill the requirement?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 252,
+  "question": "Which of the following is a desktop and application virtualization service that runs on the cloud?",
+  "answers": [
+    "A. Virtual Machine",
+    "B. Virtual Machine Scale Set (VMSS)",
+    "@ C.Azure Virtual Desktop",
+    "D.Azure VMware Solution"
+  ]
+},
+{
+  "_id": 255,
+  "question": "A company is planning to set up a solution in Azure. The solution would have the following key requirement.  ●       A tool used to monitor Web applications hosted in production-based environments. Which of the following would be best suited for this requirement?",
+  "answers": [
+    "A. Azure Advisor",
+    "B.Azure Cognitive Services",
+    "@ C.Azure Application Insights",
+    "D.Azure Devops"
+  ]
+},
+{
+  "_id": 244,
+  "question": "A company plans to implement the below architecture ( between 'on-premises' and Azure Cloud Infrastructure). Which of the following best describes the above cloud model?",
+  "answers": [
+    "A. Private Cloud",
+    "B. Public Cloud",
+    "C.Government Cloud",
+    "@D. Hybrid Cloud"
+  ]
+},
+{
+  "_id": 210,
+  "question": "Your company needs to deploy and manage several Azure Web apps using the Azure App service resource. Which of the following URL would you use to manage the Azure Web Apps?",
+  "answers": [
+    "A. https://portal.microsoft.com",
+    "@B. https://portal.azure.com",
+    "C. https://portal.azurewebsites.net",
+    "D. https://portal.azurewebsites.com"
+  ]
+},
+{
+  "_id": 254,
+  "question": "A company is planning to create several Virtual Machines in Azure. Which of the following is the right category to which the Azure Virtual Machine belongs?",
+  "answers": [
+    "@ A. TInfrastructure as a service (IaaS)",
+    "B. Platform as a service (PaaS)",
+    "C.Software as a service (SaaS)",
+    "D. Function as a service (FaaS"
+  ]
+},
+{
+  "_id": 224,
+  "question": "Is the archive access tier set at the storage account level?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 248,
+  "question": "A company has launched a set of Virtual Machines in their Pay-as-you-go Azure subscription. After launching a set of VM’s, they seem to be hitting a limit. They cannot provision additional Virtual Machines. Which of the following can be done to allow the company to provision more Virtual Machines?",
+  "answers": [
+    "@ A. Raise a support ticket with Microsoft.",
+    "B. Increase the limit in the Azure Monitor.",
+    "C.Increase the limit using the Azure CLI.",
+    "D.Increase the limit in Azure Advisor."
+  ]
+},
+{
+  "_id": 218,
+  "question": "A company is planning to set up an Enterprise Azure Subscription. Do they need to have a valid Microsoft Azure account on EA Portal (https://ea.azure.com/) for associating the Azure Subscription?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 222,
+  "question": "Is the Cool Access tier a good option for long-term backup?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 228,
+  "question": "A company is planning to deploy Azure resources to a resource group. The company is planning to assign permissions to the resource groups. Would the resources in the resource group also inherit the same permissions?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 253,
+  "question": "Which of the following options gives you authenticated and authorized access to create Azure resources and services?",
+  "answers": [
+    "A. Microsoft Entra ID",
+    "B. Azure RBAC",
+    "C.Azure Service Account",
+    "@ D.Azure Subscription"
+  ]
+},
+{
+  "_id": 216,
+  "question": "A company is planning to host 2 Virtual Machines in Azure, as shown below. When the virtual machine demovm is stopped, you will still incur costs for the storage attached to the virtual machine. Is this the correct understanding?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 219,
+  "question": "An IT administrator for a company has been given a PowerShell script. This PowerShell script will be used to create several Virtual Machines in Azure. You have to provide a machine to the IT administrator for running the PowerShell script. You decide to provide a Linux machine that has the Azure CLI tools with PowerShell 5.x installed. Would this solution fit the requirement?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 229,
+  "question": "A company has a set of resources deployed to Azure. They want to use the Azure Advisor tool. Would the Azure Advisor tool alone be able to give recommendations on how to improve the security of the Azure AD environment?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 237,
+  "question": "A company has substantial business-critical utilization of MS Azure. It wants to purchase an Azure support plan. Below is a key requirement from the support plan.   ●      Provide architectural support for the company’s Azure environment from the Pooled Team of Microsoft's ProDirect Delivery Managers. Which of the following plan would the company need to purchase to fulfill this requirement?",
+  "answers": [
+    "A. Basic",
+    "B. Developer",
+    "@C.Professional Direct",
+    "D.Standard"
+  ]
+},
+{
+  "_id": 240,
+  "question": "Are the below provided scenarios valid PaaS (Platform as a service) use-cases?   ●       Development framework  ●       Analytics or business intelligence   ●       Storage, backup, and recovery",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 207,
+  "question": "A company plans to upgrade its current Azure AD Free plan to the Azure AD Premium P1 plan. Does Microsoft provide the same feature set for both plans?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 211,
+  "question": "A company needs to store 2 TB worth of data that is infrequently used. The data needs to be accessed via Power BI. Which of the following could be used as a cost-effective data layer for this requirement?",
+  "answers": [
+    "A. Azure SQL databases",
+    "B. Azure PostgreSQL",
+    "C. Azure Cosmos DB",
+    "@ D. Azure Data Lake"
+  ]
+},
+{
+  "_id": 231,
+  "question": "A company has hosted its solutions on the Azure Cloud. They need to implement MFA for identities hosted in Azure. Is it necessary to deploy a federation solution for identities available in the cloud?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 243,
+  "question": "A company is planning to host an application on a set of Virtual Machines in Azure. They want to ensure that the application recovers from a region-wide failure in Azure. Which of the following concept needs to be considered to fulfil this requirement?",
+  "answers": [
+    "A. Scalability",
+    "@B. Disaster Recovery",
+    "C.Agility",
+    "D.Elasticity"
+  ]
+},
+{
+  "_id": 233,
+  "question": "A company plans to set up multiple resources in their Azure subscription. They want to implement tagging of resources in Azure. But they want to ensure that they have to contain a tag with a name of “organization” and value of “whizlabs” when resource groups are created. You recommend using Azure locks for implementing this requirement. Would this recommendation fulfil the requirement?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 238,
+  "question": "Which of the following options is not a characteristic of Azure DNS?",
+  "answers": [
+    "A. It uses anycast networking, so each DNS query is answered by the closest available DNS server",
+    "@B. It currently supports DNSSEC",
+    "C.You cannot buy the domain in Azure DNS",
+    "D.Azure DNS supports private DNS domains"
+  ]
+},
+{
+  "_id": 239,
+  "question": "A company is planning to move to Azure. The senior management wants to get an idea on the cost that would be incurred when hosting resources in Azure. You recommend using the Azure Cost Management to get the required costing of the resources. Would this recommendation fit the requirement?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 245,
+  "question": "A company wants to create multiple data stores in Azure. They want to have storage layers that can be used to store data that is infrequently used. Which of the following storage tiers for Azure BLOB storage would be suitable for this type of requirement? Choose 2 answers from the options given below.",
+  "answers": [
+    "A.Premium storage",
+    "B. Hot storage",
+    "@ C. Cool storage",
+    "@ D. Archive storage"
+  ]
+},
+{
+  "_id": 217,
+  "question": "Which of the following is true when it comes to SaaS (Software as a service)?",
+  "answers": [
+    "A. You are responsible for scalability of the solution.",
+    "B. You are responsible for the maintenance of the underlying hardware.",
+    "@ C.You are responsible for configuring the application settings for client-specific customization.",
+    "D. You are responsible for the high availability of the solution."
+  ]
+},
+{
+  "_id": 221,
+  "question": "An IT administrator for a company has been given a PowerShell script. This PowerShell script will be used to create several Virtual Machines in Azure. You have to provide a machine to the IT administrator for running the PowerShell script. You decide to provide an Azure CLI installed on a computer that has MacOS 10.13 and PowerShell 7.0.3 also installed. Would this solution fit the requirement?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+},
+{
+  "_id": 235,
+  "question": "A company plans to set up multiple resources in their Azure subscription. They want to implement tagging of resources in Azure. But they want to ensure that when resource groups are created, they have to contain a tag with a name of “organization” and the value of “whizlabs”. You recommend using Azure Key Vault for implementing this requirement. Does this recommendation meet the need?",
+  "answers": [
+    "YES",
+    "@NO"
+  ]
+},
+{
+  "_id": 241,
+  "question": "The senior management wants to get an idea of the cost that would be incurred when hosting resources in Azure. You recommend using the pricing calculator to get the required costing of the resources. Would this recommendation fit the requirement?",
+  "answers": [
+    "@YES",
+    "NO"
+  ]
+}]
