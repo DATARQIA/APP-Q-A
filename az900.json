@@ -1,6 +1,6 @@
 [{
   "_id": 5,
-  "question": "Contoso plans to migrate their existing on-premises SQL VMs to Azure. Which expenditure model does this implement?",
+  "question": "Contoso  plans to migrate their existing on-premises SQL VMs to Azure. Which expenditure model does this implement?",
   "answers": [
     "Capital (CAPEX)",
     "@Operational (OPEX)",
